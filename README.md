@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Kickz-R-Us
+A React app for grabbing shoe products and contact for sale stored in Shoe-market API. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description 
+The Kickz-R-Us App was designed to provide Sneakerheads another source of buy, selling, and trading new and used shoes. While using this app, a user will have the ability to add/remove shoes from the marketplace while also being able view marketplace where all user shoes will display.
 
-## Available Scripts
+# Application 
 
-In the project directory, you can run:
+# Screenshots
+## Wireframe 
+*[Pages](https://i.imgur.com/eudLXay.png)
+*[Pages](https://i.imgur.com/x8sInGq.png)
+## ERD
+* User will have ability to sign up and information will store in database. After sign up, User will have ability to post shoes to profile and this information will post to database along with foreign key of userId to each shoe.
+![ERD](https://i.imgur.com/BwJx4pH.png) <br>
 
-### `npm start`
+# User Stories 
+As a User, I should be presented with marketplace at the homepage.
+As a User, I should be presented with navigational bar at any route chosen. 
+As a User, I should be able to return to homepage on any route. 
+As a User, I should be able to signUp.
+As a User, I should be able to post shoes for sale. 
+As a User, I should be able to delete shoes that I post. 
+As a User, I should be able to see retail and Current value of shoes. 
+As a User, I should be able to see contact information of shoe owner.
+As a User, I should be able to update profile information.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Technology Used 
+* CSS5 <br>
+* ES6 <br>
+* HTML5 <br>
+* NPX <br>
+* NPM <br>
+* React <br>
+* Bootstrap <br>
 
-### `npm test`
+# Installation 
+* None needed to use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Future Plans 
+* The integration of MangoDB to the frontend. Open source webpage scraper that will return other shoe market resources along with current market prices.
+* Add watchlist functionality to save and update user of price changes.
+* Add search functionality for database and outside resources 
+* Mobile functionality.
