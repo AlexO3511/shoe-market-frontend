@@ -8,22 +8,22 @@ The Kickz-R-Us App was designed to provide Sneakerheads another source of buy, s
 
 # Screenshots
 ## Wireframe 
-*[Pages](https://i.imgur.com/eudLXay.png)
-*[Pages](https://i.imgur.com/x8sInGq.png)
+![Pages](https://i.imgur.com/eudLXay.png)
+![Pages](https://i.imgur.com/x8sInGq.png)
 ## ERD
 * User will have ability to sign up and information will store in database. After sign up, User will have ability to post shoes to profile and this information will post to database along with foreign key of userId to each shoe.
 ![ERD](https://i.imgur.com/BwJx4pH.png) <br>
 
 # User Stories 
-As a User, I should be presented with marketplace at the homepage.
-As a User, I should be presented with navigational bar at any route chosen. 
-As a User, I should be able to return to homepage on any route. 
-As a User, I should be able to signUp.
-As a User, I should be able to post shoes for sale. 
-As a User, I should be able to delete shoes that I post. 
-As a User, I should be able to see retail and Current value of shoes. 
-As a User, I should be able to see contact information of shoe owner.
-As a User, I should be able to update profile information.
+* As a User, I should be presented with marketplace at the homepage.
+* As a User, I should be presented with navigational bar at any route chosen. 
+* As a User, I should be able to return to homepage on any route. 
+* As a User, I should be able to signUp.
+* As a User, I should be able to post shoes for sale. 
+* As a User, I should be able to delete shoes that I post. 
+* As a User, I should be able to see retail and Current value of shoes. 
+* As a User, I should be able to see contact information of shoe owner.
+* As a User, I should be able to update profile information.
 
 
 # Technology Used 
