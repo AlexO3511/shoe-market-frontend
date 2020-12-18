@@ -1,0 +1,16 @@
+.SignUp form {
+    background-image: url("https://i.imgur.com/NQXSeqO.jpg");
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+form {
+    text-align: center; 
+}
+
+h1 {
+    color: black; 
+}
